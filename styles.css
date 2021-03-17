@@ -1,0 +1,109 @@
+html{
+    font-family: Calibri;
+    background: url("https://eskipaper.com/images/gray-wallpaper-26.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    margin: auto;
+    width: 720px;
+    background-color: #ECECEC;
+    text-align: center;
+    padding: 5px 12px 10px 12px;
+    border-radius: 0 0 5px 5px;
+}
+
+#main-container {
+    background: #ECECEC;
+    margin: auto;
+    width: 720px;
+    height: 85%;
+    padding: 0px 12px 0 12px;
+    border-radius: 5px 0 0 0;
+}
+
+body {
+    height: 85%;
+    width: 95%;
+}
+
+#homepage-header {
+    display: inline-block;
+    border-right: solid 2px;
+    border-radius: 5px;
+    padding: 0px 30px 0px 0px;
+}
+
+.homepage-title {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    font-size: 45px;
+    /* -webkit-text-stroke: 1px black; */
+    color: #393d3f;
+}
+
+.homepage-caption {
+    text-align: left;
+    padding: 0px;
+    margin: 0px 0px 0px 3px;
+    font-size: 25px;
+    /* -webkit-text-stroke: 1px black; */
+    color: #393d3f;
+}
+
+.header {
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 2px
+}
+
+.gitlogo {
+    width: 16px;
+    height: 16px;
+}
+
+/* Site Navigation */
+
+.sitenavigation {
+    float: right;
+    display: block;
+    border-left: solid 2px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.sitenavigation li {
+    display: inline-block;
+    font-size: 1.1em;
+    color: #393d3f;
+    text-align: center;
+    padding: 0 3px 0 3px;
+    font-size: 18px;
+}
+.sitenavigation ul {
+    text-align: center;
+    padding: 15px;
+}
+.sitenavigation a:link {
+    color: #393d3f;
+    text-decoration: none;
+}
+
+.sitenavigation a:hover, nav.sitenavigation a:focus {
+    color: #ebebff;
+    text-shadow: 1px -1px 0 #000000;
+}
+
+.sitenavigation a:active {
+    transform: translateY(4px) !important;
+}
+
+.sitenavigation a:visited {
+    color: #393d3f;
+    text-decoration: none; 
+
+}
